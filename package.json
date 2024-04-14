@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run copy-static-assets",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-static-assets": "xcopy /s /y src\\static\\* dist\\static"
   },
   "keywords": [],
   "author": "",
