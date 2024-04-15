@@ -1,9 +1,6 @@
 ## Fresh Market Dashboard
 
 -Welcome to the Fresh Market Dashboard! This dashboard is designed to help you manage your grocery products efficiently.
-
-## Installation:
-
 This README provides an overview of the project, details about the layout design, technologies used, getting started instructions, project structure, and contributors.
 
 ## Technologies Used
