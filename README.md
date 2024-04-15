@@ -10,7 +10,6 @@ This README provides an overview of the project, details about the layout design
 
 - Node.js
 - Express
-- RTK Query
 - MongoDB
 
 ## Layout Design
