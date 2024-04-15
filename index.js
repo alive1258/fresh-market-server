@@ -22,13 +22,14 @@ async function run() {
     console.log("Connected to MongoDB");
 
     const productsCollection = client.db("fresh-market").collection("products");
-
+    // Route to get all products
     app.get("/api/v1/products", async (req, res) => {
       const result = await productsCollection.find().toArray();
 
       res.json(result);
     });
 
+    // Route to get a single product by ID
     app.get("/api/v1/products/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) };
